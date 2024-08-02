@@ -1,9 +1,3 @@
----
-layout: page
-title: The next generation of the HyperLeda database
-permalink: /news/
----
-
 # The next generation of the HyperLeda database
 
 ## by Danila Makarov, Dmitry Makarov, Artyom Zaporozhets, Valeria Selchonok, Elizaveta Kostromina, Eugene Sendzikas
