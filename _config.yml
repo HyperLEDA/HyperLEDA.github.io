@@ -30,13 +30,12 @@ description: >- # this means to ignore newlines until "baseurl:"
 # twitter_username: jekyllrb
 # github_username:  jekyll
 
-#domain: HyperLEDA/news.github.io       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-domain: HyperLEDA.github.io
+domain: HyperLEDA.github.io   # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 url: https://HyperLEDA.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 baseurl: /news/      # place folder name if the site is served in a subfolder
 
 # Build settings
-#theme: minima
+theme: minima
 plugins:
   - jekyll-feed
   - search
@@ -51,25 +50,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
-theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/brightness-auto
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to system preference
-
 
 
 
