@@ -2,7 +2,7 @@
 
 # The next generation of the HyperLeda database
 
-## by Danila Makarov, Dmitry Makarov, Artyom Zaporozhets, Valeria Selchonok, Elizaveta Kostromina, Eugene Sendzikas
+## by HyperLeda team*
 
 ### Special Astrophysical Observatory, Nizhniy Arkhyz, Karachai-Cherkessia 369167, Russia
 
@@ -36,6 +36,13 @@ The goal of the project is to provide the astronomical community with uniform in
 
 ### Release and further plans
 
-We plan to redesign the Leda database for a more accurate description and further processing of the observed parameters; replenish it with data from modern redshift and imaging surveys; perform uniform photometry for a large sample of galaxies based on public photometric surveys of the sky. All features of the refactored project will be available through HTTP API, that is for now really close to release. The browser client will be released afterwards. The Leda database will serve as a basis for clustering and creating a catalog of galaxy groups and clusters, as well as for building specialized catalogs of the Local Volume galaxies, studying stellar populations in the nearby Universe, studying edge-on galaxies, etc.
+We plan to redesign the Leda database for a more accurate description and further processing of the observed parameters; 
+replenish it with data from modern redshift and imaging surveys; perform uniform photometry for a large sample of galaxies 
+based on public photometric surveys of the sky. All features of the refactored project will be available through HTTP API, 
+that is for now really close to release. The browser client will be released afterwards. The Leda database will serve 
+as a basis for clustering and creating a catalog of galaxy groups and clusters, as well as for building 
+specialized catalogs of the Local Volume galaxies, studying stellar populations in the nearby Universe, 
+studying edge-on galaxies, etc.
 
-[sky_density]: sky100-1.png
+#### HyperLeda team:  
+Danila Makarov, Dmitry Makarov, Artyom Zaporozhets, Valeria Selchonok, Elizaveta Kostromina, Eugene Sendzikas.
