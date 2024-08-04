@@ -100,6 +100,10 @@ max_width: 900px
 pagination:
   enabled: true
 
+# Disable viewing out github profile
+github:
+  is_project_page: false
+
 
 
 
