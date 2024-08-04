@@ -22,9 +22,7 @@ title: The next generation of the HyperLeda database
 name: HyperLeda
 email: leda@sao.ru
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  An awesome description for our new site is here.
 
 #baseurl: "/hq/dim/LEDA/" # the subpath of your site, e.g. /blog
 #url: "https://www.sao.ru" # the base hostname & protocol for your site, e.g. http://example.com
@@ -40,6 +38,17 @@ url: https://HyperLEDA.github.io  # the base hostname and protocol for your site
 plugins:
   - jekyll-feed
   - search
+  - jekyll-archives
+  - jekyll-diagrams
+  - jekyll-email-protect
+  - jekyll-imagemagick
+  - jekyll-minifier
+  - jekyll-paginate-v2
+  - jekyll/scholar
+  - jekyll-sitemap
+  - jekyll-link-attributes
+  - jekyll-twitter-plugin
+  - jemoji
 
 navbar_fixed: true
 footer_fixed: true
@@ -72,6 +81,17 @@ markdown_extensions:
   - pymdownx.superfences
 
 theme: jekyll-theme-minimal
+
+highlight_theme_light: github   # https://github.com/jwarby/jekyll-pygments-themes
+highlight_theme_dark: native    # https://github.com/jwarby/jekyll-pygments-themes
+
+# repo color theme
+repo_theme_light: default       # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_dark: dark           # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_trophies:
+  enabled: true
+  theme_light: flat    # https://github.com/ryo-ma/github-profile-trophy
+  theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
 # Dimensions
 max_width: 900px
