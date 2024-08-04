@@ -22,7 +22,7 @@ title: The next generation of the HyperLeda database
 name: HyperLeda
 email: leda@sao.ru
 #description: >- # this means to ignore newlines until "baseurl:"
-  An awesome description for our new site is here.
+#  An awesome description for our new site is here.
 
 #baseurl: "/hq/dim/LEDA/" # the subpath of your site, e.g. /blog
 #url: "https://www.sao.ru" # the base hostname & protocol for your site, e.g. http://example.com
@@ -30,7 +30,7 @@ email: leda@sao.ru
 # github_username:  jekyll
 
 domain: HyperLEDA.github.io   # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-#url: https://HyperLEDA.github.io  # the base hostname and protocol for your site, e.g. http://example.com
+url: https://HyperLEDA.github.io  # the base hostname and protocol for your site, e.g. http://example.com
 # baseurl:       # place folder name if the site is served in a subfolder
 
 # Build settings
