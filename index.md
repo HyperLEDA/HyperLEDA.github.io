@@ -1,8 +1,6 @@
 ![](LEDA.png)
 
-# The next generation of the HyperLeda database
-
-## HyperLeda database
+# [HyperLeda database](https://leda.univ-lyon1.fr/)
 
 [HyperLEDA](https://leda.univ-lyon1.fr/) is a database and a collection of tools to study the physics of galaxies and cosmology. 
 The project is maintained by a collaboration between [Observatoire de Lyon (France)](https://observatoire.univ-lyon1.fr/) and [the Special Astrophysical Observatory (Russia)](https://www.sao.ru/).
@@ -15,7 +13,7 @@ The physical values are determined from the homogenized data taking into account
 
 ![](sky100.png)
 
-## History
+# History
 
 Leda is the oldest astronomical database dedicated to the study of extragalactic objects, galaxy physics and cosmology. 
 It has a long history and is widely used in the astronomical community. 
@@ -24,7 +22,7 @@ HyperLeda took its present form after merger with the catalog of kinematics of e
 In the spirit of the famous series of Bright Galaxy Reference Catalogues (RC1, RC2, RC3) by de Vaucouleurs and co-workers, Leda provides a unified homogeneous description of several million galaxies, which is one of the main features that distinguishes it from other extragalactic databases.
 
 
-## New generation
+# New generation
 
 Since the project has an extremely long history of development, it accumulated a critical mass of irrelevant and legacy code that is hard to maintain and scale.
 The modern avalanche of observational data challenges us to speed up data collection and analysis. 
@@ -32,7 +30,7 @@ The main goal of our project is to develop an application that provides the abil
 As before the Leda database will provide the astronomical community with uniform information about extragalactic objects, combining both observable quantities such as apparent magnitude, size, redshift, and physical characteristics such as the total mass of the galaxy, stars and gas. 
 This will be the basis for the study of individual galaxies, the identification of galaxy groups and clusters, large-scale structures, and the study of flows in the Universe.
 
-### HyperLeda team
+## HyperLeda team
 
 - Dmitry Makarov (SAO RAS, Russia)
 - Danila Makarov (SAO RAS, Russia)
@@ -41,12 +39,12 @@ This will be the basis for the study of individual galaxies, the identification 
 - Elizaveta Kostromina  (HSE University, Russia)
 - Eugene Sendzikas  (SAO RAS, Russia)
 
-### Financial support
+## Financial support
 
 The project is partially supported by the Russian Science Foundation grant № 24-12-00277
 
 
-### Data flow
+## Data flow
 
 ![](Hyperleda-Data-Flow.png)
 
@@ -58,13 +56,13 @@ At the last stage, complex processing and query can be performed.
 This is done to further explore a specific scientific question. 
 All levels of data are available to the user and can be used for his research.
 
-### New codebase
+## New codebase
 
 The codebase has been completely reworked using modern astronomical computing packages such as Astropy and Clean Architecture principles. 
 Using modern and maintained astronomical packages will result in more accurate and relevant calculations. 
 The redesigned codebase will result in a less human-dependent and more transparent data addition process, resulting in a dramatic data amount expansion and an improved user experience.
 
-### Release and further plans
+## Release and further plans
 
 We plan to redesign the Leda database for a more accurate description and further processing of the observed parameters; 
 replenish it with data from modern redshift and imaging surveys; perform uniform photometry for a large sample of galaxies 
@@ -73,7 +71,7 @@ All features of the refactored project will be available through HTTP API, that 
 The browser client will be released afterwards. 
 The Leda database will serve as a basis for clustering and creating a catalog of galaxy groups and clusters, as well as for building specialized catalogs of the Local Volume galaxies, studying stellar populations in the nearby Universe, studying edge-on galaxies, etc.
 
-### Release plan
+## Release plan
 
 - The project is presented at [the All Russian Astronomical Conference](https://vak2024.ru/ru/index.php)
 - The project is presented at a [Focus Meeting 9 "Measures of Luminous and Dark Matter in Galaxies Across Time"](https://ga24dmfm9.saao.ac.za/) within [the XXXII IAU GA 2024](https://astronomy2024.org/) 
