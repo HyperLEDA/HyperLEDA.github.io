@@ -1,2 +1,2 @@
-# news.github.io
+# hyperleda.github.io
 An open place for news and public information about HyperLeda
