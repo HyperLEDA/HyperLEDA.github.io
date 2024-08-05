@@ -67,7 +67,7 @@ imagemagick:
     - ".png"
     - ".tiff"
   output_formats:
-    webp: "-resize 800x"
+    webp: "-resize 1000x"
 
 markdown_extensions:
   - toc:
@@ -94,7 +94,7 @@ repo_trophies:
   theme_dark: gitdimmed  # https://github.com/ryo-ma/github-profile-trophy
 
 # Dimensions
-max_width: 1100px
+max_width: 1000px
 
 # Pagination
 pagination:
